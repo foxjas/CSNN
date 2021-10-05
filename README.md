@@ -1,12 +1,12 @@
 # Concentric Spherical GNN for 3D Representation Learning
 
 ## Overview
-This library contains a PyTorch implementation of CSGNN. 
+This library contains a PyTorch implementation of CSGNN. It was originally run using Python 3.8, PyTorch 1.9, DGL 0.6.1, and CUDA 11.1.
 
 ## Dependencies
 The following installs dependencies to Anaconda virtual environment. 
 ```bash
-conda create --name csgnn python=3.9
+conda create --name csgnn python=3.8
 conda activate csgnn
 conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c nvidia
 conda install -c dglteam dgl-cuda11.1
